@@ -41,6 +41,10 @@ html, body {
                 opacity: 0.03;
             }
         }
+
+        &:hover ~ .pochetteR {
+            clip-path: circle(100%);
+        }
     }
 
     .L {
@@ -50,7 +54,7 @@ html, body {
         z-index: 99;
         cursor: pointer;
 
-        &:hover ~ .left{
+        &:hover ~ .left {
             .bg1 {
                 height: 1000%;
                 width: 1500%;
@@ -61,6 +65,10 @@ html, body {
                 width: 1000%;
                 opacity: 0.23;
             }
+        }
+
+        &:hover ~ .pochetteL {
+            clip-path: circle(100%);
         }
     }
 
@@ -137,7 +145,8 @@ html, body {
     left: 40px;
     bottom: 40px;
     cursor: pointer;
-
+    clip-path: circle(0% at 0%);
+    transition: 0.3s clip-path linear;
     img {
         width: 50%;
     }
@@ -149,6 +158,8 @@ html, body {
     right: 40px;
     bottom: 40px;
     cursor: pointer;
+    clip-path: circle(0% at 100%);
+    transition: 0.3s clip-path linear;
 
     text-align: right;
     img {
