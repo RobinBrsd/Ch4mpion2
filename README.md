@@ -1,1 +1,1 @@
-https://heuristic-pare-94ef66.netlify.com/
+https://ch4mpion2.netlify.com
